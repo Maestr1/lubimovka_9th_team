@@ -1,0 +1,5 @@
+.partners__logotypes {
+  display: flex;
+  flex-basis: 435px;
+  justify-content: space-between;
+}
