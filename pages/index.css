@@ -1,3 +1,12 @@
 @import url(../vendor/normalize.css);
 
+@import url(../vendor/fonts/FormularLight/formular-light.css);
+@import url(../vendor/fonts/NeueMachinaRegular/neue-machina-regular.css);
+
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__lists/footer__lists.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__copyrights/footer__copyrights.css);
