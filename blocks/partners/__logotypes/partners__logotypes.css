@@ -1,0 +1,28 @@
+.partners__logotypes {
+  display: flex;
+  flex-basis: 435px;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .partners__logotypes {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 576px) {
+  .partners__logotypes {
+    flex-wrap: wrap;
+    gap: 55px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 406px) {
+  .partners__logotypes {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+.footer__logo {
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 32px;
+}
+
+@media (max-width: 992px) {
+  .footer__logo {
+    align-items: center;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__logo {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 32px 55px;
+  }
+}
