@@ -1,0 +1,6 @@
+.partners {
+  display: flex;
+  flex-basis: 145px;
+  justify-content: space-between;
+  align-items: center;
+}
