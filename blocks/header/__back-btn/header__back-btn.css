@@ -1,0 +1,13 @@
+.header__back-btn {
+  padding-left: 10px;
+  padding-bottom: 6px;
+  padding-right: 30px;
+  font-family: "FormularLight", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);;
+  background: url(../../../images/back-arrow.svg) no-repeat right;
+  background-position-y: 4px;
+}

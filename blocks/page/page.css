@@ -1,0 +1,10 @@
+.page {
+  --text-color: #242424;
+  --background-color: #ecebe8;
+  --accent-color: #b7c09d;
+
+  margin: 0 auto;
+  font-family: "NeueMachinaRegular", sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
