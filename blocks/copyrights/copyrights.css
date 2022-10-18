@@ -3,9 +3,3 @@
   justify-content: space-between;
   padding: 20px 0 50px;
 }
-
-@media (max-width: 992px) {
-  .copyrights {
-    padding-left: 8px;
-  }
-}

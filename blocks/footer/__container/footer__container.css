@@ -12,5 +12,13 @@
   .footer__container {
     grid-template-columns: 7fr 12fr repeat(3, 7fr);
     grid-row-gap: 5px;
+    padding-left: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
   }
 }

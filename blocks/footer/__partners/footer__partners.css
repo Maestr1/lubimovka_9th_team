@@ -11,3 +11,7 @@
 @media (max-width: 768px) {
   .footer__partners { grid-area: 1 / 2 / 2 / 6; }
 }
+
+@media (max-width: 576px) {
+  .footer__partners { grid-area: 4 / 1 / 5 / 2; }
+  }

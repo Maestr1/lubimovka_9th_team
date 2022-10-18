@@ -6,3 +6,7 @@
     padding-left: 8px;
   }
 }
+
+@media (max-width: 576px) {
+  .footer__copyrights { grid-area: 5 / 1 / 6 / 2; }
+}

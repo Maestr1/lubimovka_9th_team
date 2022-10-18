@@ -14,3 +14,9 @@
     margin-right: calc(5%);
   }
 }
+
+@media (max-width: 768px) {
+  .links__list:first-of-type {
+    padding-left: 16px;
+  }
+}
