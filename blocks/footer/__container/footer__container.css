@@ -7,3 +7,10 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+
+@media (max-width: 992px) {
+  .footer__container {
+    grid-template-columns: 7fr 12fr repeat(3, 7fr);
+    grid-row-gap: 5px;
+  }
+}

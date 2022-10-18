@@ -4,3 +4,10 @@
   align-items: flex-end;
   padding-left: 32px;
 }
+
+@media (max-width: 992px) {
+  .footer__logo {
+    align-items: center;
+    padding-left: 8px;
+  }
+}

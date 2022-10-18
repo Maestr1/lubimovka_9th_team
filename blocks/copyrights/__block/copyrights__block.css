@@ -6,3 +6,12 @@
 .copyrights__block:last-of-type {
   margin-right: calc(7.48%);
 }
+
+@media (max-width: 992px) {
+  .copyrights__block {
+    column-gap: 8px;
+  }
+  .copyrights__block:last-of-type {
+    margin-right: calc(2.5%);
+  }
+}

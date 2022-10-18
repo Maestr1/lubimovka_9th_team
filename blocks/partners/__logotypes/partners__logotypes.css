@@ -3,3 +3,9 @@
   flex-basis: 435px;
   justify-content: space-between;
 }
+
+@media (max-width: 992px) {
+  .partners__logotypes {
+    justify-content: space-around;
+  }
+}

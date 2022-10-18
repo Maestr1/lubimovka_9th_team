@@ -1,1 +1,13 @@
 .footer__partners { grid-area: 1 / 2 / 2 / 3; }
+
+@media (max-width: 1200px) {
+  .footer__partners { grid-area: 1 / 2 / 2 / 4; }
+}
+
+@media (max-width: 992px) {
+  .footer__partners { grid-area: 1 / 2 / 2 / 5; }
+}
+
+/* @media (max-width: 768px) {
+
+} */
