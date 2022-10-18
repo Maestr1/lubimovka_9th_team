@@ -2,3 +2,7 @@
   display: flex;
   column-gap: 32px;
 }
+
+.copyrights__block:last-of-type {
+  margin-right: calc(7.48%);
+}
