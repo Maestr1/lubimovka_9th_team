@@ -1,0 +1,8 @@
+.copyrights__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.copyrights__link:hover {
+  text-decoration: underline;
+}

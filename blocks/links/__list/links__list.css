@@ -1,0 +1,31 @@
+.links__list {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.links__list:last-of-type {
+  margin-right: calc(14.605%);
+}
+
+@media (max-width: 992px) {
+  .links__list:last-of-type {
+    margin-right: calc(5%);
+  }
+}
+
+@media (max-width: 768px) {
+  .links__list:first-of-type {
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .links__list:first-of-type {
+    padding-left: 0;
+  }
+  .links__list:last-of-type {
+    margin-right: 0;
+  }
+}
