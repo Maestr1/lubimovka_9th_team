@@ -7,18 +7,18 @@
 @import url(../vendor/fonts/FormularLight/formular-light.css);
 @import url(../vendor/fonts/NeueMachinaRegular/neue-machina-regular.css);
 
-/* ---------------Header-------------- */
+/* ---------------hero-------------- */
 
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__link/header__link-wrap.css);
-@import url(../blocks/header/__back-btn/header__back-btn.css);
-@import url(../blocks/header/__wrap/header__wrap.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__main/header__main.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__desc/header__desc.css);
-@import url(../blocks/header/__pic/header__pic.css);
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__link/hero__link-wrap.css);
+@import url(../blocks/hero/__back-btn/hero__back-btn.css);
+@import url(../blocks/hero/__wrap/hero__wrap.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__main/hero__main.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__desc/hero__desc.css);
+@import url(../blocks/hero/__pic/hero__pic.css);
 
 /* ---------------Footer-------------- */
 @import url(../blocks/footer/footer.css);
