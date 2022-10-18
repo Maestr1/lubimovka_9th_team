@@ -9,7 +9,7 @@
 
 @media (max-width: 992px) {
   .copyrights__block {
-    column-gap: 8px;
+    column-gap: 16px;
   }
   .copyrights__block:last-of-type {
     margin-right: calc(2.5%);

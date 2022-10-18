@@ -8,6 +8,6 @@
   .footer__partners { grid-area: 1 / 2 / 2 / 5; }
 }
 
-/* @media (max-width: 768px) {
-
-} */
+@media (max-width: 768px) {
+  .footer__partners { grid-area: 1 / 2 / 2 / 6; }
+}
