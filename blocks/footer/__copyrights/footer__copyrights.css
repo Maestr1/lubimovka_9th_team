@@ -8,5 +8,8 @@
 }
 
 @media (max-width: 576px) {
-  .footer__copyrights { grid-area: 5 / 1 / 6 / 2; }
+  .footer__copyrights {
+    grid-area: 5 / 1 / 6 / 2;
+    padding: 0 25px;
+  }
 }

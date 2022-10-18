@@ -9,3 +9,20 @@
     justify-content: space-around;
   }
 }
+
+@media (max-width: 576px) {
+  .partners__logotypes {
+    flex-wrap: wrap;
+    gap: 55px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 406px) {
+  .partners__logotypes {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -19,6 +19,8 @@
 @media (max-width: 576px) {
   .footer__container {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 0;
+    padding: 0;
   }
 }

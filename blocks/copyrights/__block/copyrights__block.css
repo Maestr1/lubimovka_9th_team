@@ -15,3 +15,10 @@
     margin-right: calc(2.5%);
   }
 }
+
+@media (max-width: 576px) {
+  .copyrights__block {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
