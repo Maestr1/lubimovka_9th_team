@@ -21,6 +21,7 @@
 @import url(../blocks/partners/__logotypes/partners__logotypes.css);
 @import url(../blocks/partners/__logotype/partners__logotype.css);
 @import url(../blocks/partners/__caption/partners__caption.css);
+@import url(../blocks/partners/__img/partners__img.css);
 
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__list/links__list.css);
