@@ -4,3 +4,8 @@
   padding-left: 22px;
   padding-right: 22px;
 }
+
+.nav__item:last-child {
+  padding-right: 40px;
+}
+

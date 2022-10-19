@@ -16,6 +16,8 @@
 @import url(../blocks/nav/__donate/__donate-link/nav__donate-link.css);
 @import url(../blocks/nav/__donate-text/nav__donate-text.css);
 @import url(../blocks/nav/__donate-plus/nav__donate-plus.css);
+@import url(../blocks/nav/__donate-link/nav__donate-link.css);
+@import url(../blocks/nav/__vertical-line/nav__vertical-line.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

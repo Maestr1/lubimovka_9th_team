@@ -1,7 +1,6 @@
-.nav__link {
+.nav__donate-link {
   display: flex;
   position: relative;
-  /* justify-content: space-between; */
   text-decoration: none;
   font-family: "NeueMachinaRegular", Arial, sans-serif;
   font-size: 16px;
@@ -11,7 +10,7 @@
   white-space: nowrap;
 }
 
-.nav__link::before {
+.nav__donate-link::before {
   content: "";
   display: block;
   border-top-left-radius: 200% 100%;
@@ -23,11 +22,11 @@
   border-right: 0;
   margin-left: -1px;
   position: absolute;
-  left: -10px;
+  left: -3px;
   visibility: hidden;
 }
 
-.nav__link::after {
+.nav__donate-link::after {
   content: "";
   display: block;
   border-top-right-radius: 200% 100%;
@@ -42,11 +41,10 @@
   visibility: hidden;
 }
 
-.nav__link:hover:before,
-.nav__link:hover:after {
+.nav__donate-link:hover:before, .nav__donate-link:hover:after {
   visibility: visible;
 }
 
-.nav__link:hover {
+.nav__donate-link:hover {
   text-decoration: none;
 }
