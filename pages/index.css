@@ -1,5 +1,9 @@
-@import url(../vendor/normalize.css);
+/* ---------------Common-------------- */
 
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+
+/* ---------------Fonts-------------- */
 @import url(../vendor/fonts/FormularLight/formular-light.css);
 @import url(../vendor/fonts/NeueMachinaRegular/neue-machina-regular.css);
 @import url(../blocks/title/title.css);
@@ -10,6 +14,20 @@
 @import url(../blocks/persons/__list/persons__list.css);
 @import url(../blocks/persons/__item/persons__item.css);
 
+/* ---------------hero-------------- */
+
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__link/hero__link-wrap.css);
+@import url(../blocks/hero/__back-btn/hero__back-btn.css);
+@import url(../blocks/hero/__wrap/hero__wrap.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__main/hero__main.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__desc/hero__desc.css);
+@import url(../blocks/hero/__pic/hero__pic.css);
+
+/* ---------------Footer-------------- */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

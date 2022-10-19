@@ -1,0 +1,9 @@
+.hero__subtitle {
+  margin: 0;
+  padding-top: 199px;
+  padding-left: 180px;
+  padding-right: 50px;
+  max-width: 420px;
+  font-size: 28px;
+  line-height: 1.14;
+}
