@@ -1,15 +1,7 @@
 .persons {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media all and (max-width:935px) {
-  .persons {
-    margin-left: auto;
-   justify-content: center;
-
-  }
-
+justify-content: center;
+display: flex;
+flex-direction: column;
+background: #ECEBE8;
+padding-bottom: 112px;
 }

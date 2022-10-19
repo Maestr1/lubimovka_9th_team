@@ -1,4 +1,4 @@
-.section__title {
+.title {
   font-family: "NeueMachinaRegular", "sans-serif";
   width: 358px;
   height: 80px;
@@ -11,13 +11,13 @@
 
 
 @media all and (max-width:1048px) {
-  .section__title {
+  .title {
     margin-left: 20%;
   }
 }
 
 @media all and (max-width:590px) {
-  .section__title {
+  .title {
     font-size: 28px;
     line-height: 32px;
     margin-bottom: 24px;
