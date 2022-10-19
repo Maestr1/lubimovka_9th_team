@@ -9,7 +9,6 @@
 
 /* ---------------hero-------------- */
 
-
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__link/hero__link-wrap.css);
 @import url(../blocks/hero/__back-btn/hero__back-btn.css);
@@ -28,7 +27,6 @@
 @import url(../blocks/footer/__lists/footer__lists.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
-
 
 @import url(../blocks/address/address.css);
 @import url(../blocks/address/__title/address__title.css);
@@ -51,3 +49,30 @@
 @import url(../blocks/copyrights/__paragraph/_logo/copyrights__paragraph_logo.css);
 @import url(../blocks/copyrights/__shishki-text/copyrights__shishki-text.css);
 @import url(../blocks/copyrights/__link/copyrights__link.css);
+
+/* ---------------schedule-------------- */
+@import url(../blocks/schedule-elem/__author/schedule-elem__author.css);
+@import url(../blocks/schedule-elem/__authors/schedule-elem__authors.css);
+@import url(../blocks/schedule-elem/__content/schedule-elem__content.css);
+@import url(../blocks/schedule-elem/__data/schedule-elem__data.css);
+@import url(../blocks/schedule-elem/__date/schedule-elem__date.css);
+@import url(../blocks/schedule-elem/__description/schedule-elem__description.css);
+@import url(../blocks/schedule-elem/__image/schedule-elem__image.css);
+@import url(../blocks/schedule-elem/__link-image/schedule-elem__link-image.css);
+@import url(../blocks/schedule-elem/__link/schedule-elem__link.css);
+@import url(../blocks/schedule-elem/__links/schedule-elem__links.css);
+@import url(../blocks/schedule-elem/__name/schedule-elem__name.css);
+@import url(../blocks/schedule-elem/schedule-elem.css);
+
+@import url(../blocks/schedule/__items/_theme/_size/schedule__items_theme_size.css);
+@import url(../blocks/schedule/__items/schedule__items.css);
+@import url(../blocks/schedule/schedule.css);
+@import url(../blocks/schedule/_theme/_position/schedule_theme_position.css);
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/schedule/__title/schedule__title.css);
+
+@import url(../blocks/schedule/_theme/_mobile/schedule_theme_mobile.css);
+@import url(../blocks/schedule/_theme/_size/schedule_theme_size.css);
+@import url(../blocks/title/_theme/title_theme_size.css);
+@import url(../blocks/schedule/__items/_theme/_position/schedule__items_theme_position.css);

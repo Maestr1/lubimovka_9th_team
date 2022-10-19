@@ -1,0 +1,9 @@
+.schedule {
+  padding: 100px 31px 25px 31px;
+}
+
+@media (max-width: 730px) {
+  .schedule {
+    padding: 0 0 0 0;
+  }
+}

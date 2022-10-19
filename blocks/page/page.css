@@ -2,9 +2,12 @@
   --text-color: #242424;
   --background-color: #ecebe8;
   --accent-color: #b7c09d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   margin: 0 auto;
   font-family: "NeueMachinaRegular", sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
+  max-width: 1440px;
 }

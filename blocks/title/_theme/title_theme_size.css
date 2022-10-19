@@ -1,0 +1,9 @@
+.title_theme_size {
+  max-width: 420px;
+}
+
+@media (max-width: 730px) {
+  .title_theme_size {
+    display: none;
+  }
+}

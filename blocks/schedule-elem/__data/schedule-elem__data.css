@@ -1,0 +1,11 @@
+.schedule-elem__data {
+  display: flex;
+  column-gap: 2.92vw;
+}
+
+@media (max-width: 730px) {
+  .schedule-elem__data {
+    display: flex;
+    column-gap: 46px;
+  }
+}

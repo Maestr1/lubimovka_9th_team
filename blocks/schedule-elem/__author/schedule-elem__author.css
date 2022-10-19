@@ -1,0 +1,13 @@
+.schedule-elem__author {
+  padding: 0;
+  margin: 0;
+  font-size: 1.11vw;
+  line-height: 1.53vw;
+}
+
+@media (max-width: 730px) {
+  .schedule-elem__author {
+    font-size: 3vw;
+    line-height: 4.5vw;
+  }
+}

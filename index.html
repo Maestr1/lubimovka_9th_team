@@ -1,117 +1,415 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Lubimovka</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./pages/index.css" />
-  <title>Lubimovka</title>
-</head>
+  <body class="page">
+    <main class="content">
+      <section class="hero">
+        <div class="hero__link-wrap">
+          <a href="#" class="hero__back-btn">ПРОЕКТЫ</a>
+        </div>
+        <div class="hero__wrap">
+          <div class="hero__desc">
+            <p class="hero__subtitle">
+              Межсезонные читки и обсуждение пьес из списка отмеченных
+              отборщиками Любимовки.
+            </p>
+          </div>
+          <div class="hero__main">
+            <h1 class="hero__title">Любимовка. Ещё</h1>
+            <div class="hero__pic"></div>
+          </div>
+        </div>
+      </section>
 
-<body class="page">
-  <main>
-    <section class="hero">
-      <div class="hero__link-wrap"><a href="#" class="hero__back-btn">ПРОЕКТЫ</a></div>
-      <div class="hero__wrap">
-        <div class="hero__desc">
-          <p class="hero__subtitle">Межсезонные читки и обсуждение пьес из списка отмеченных отборщиками Любимовки.</p>
-        </div>
-        <div class="hero__main">
-          <h1 class="hero__title">Любимовка. Ещё</h1>
-          <div class="hero__pic"></div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer" id="footer">
-    <div class="footer__container">
-      <div class="footer__logo">
-        <img src="images/logo/footer-logo.png" alt="Логотип - Любимовка" />
-      </div>
-      <address class="footer__address address">
-        <p class="address__title">Площадка «8/3»</p>
-        <p class="address__text">
-          <span>Москва,</span>
-          <span>ул. Казакова, 8, стр. 3</span>
-          <span>Метро "Курская"</span>
-        </p>
-      </address>
-      <div class="footer__lists links">
-        <ul class="links__list">
-          <li>Любимовка</li>
-          <li><a class="links__link" href="#footer">Афиша</a></li>
-          <li><a class="links__link" href="#footer">Библиотека</a></li>
-          <li><a class="links__link" href="#footer">Блог</a></li>
-          <li><a class="links__link" href="#footer">Новости</a></li>
-        </ul>
-        <ul class="links__list">
-          <li>О фестивале</li>
-          <li><a class="links__link" href="#footer">Организаторы</a></li>
-          <li><a class="links__link" href="#footer">История</a></li>
-          <li><a class="links__link" href="#footer">Контакты</a></li>
-          <li><a class="links__link" href="#footer">Для прессы</a></li>
-        </ul>
-        <ul class="links__list">
-          <li>Все проекты</li>
-          <li><a class="links__link" href="#footer">Любимовка.Еще</a></li>
-          <li><a class="links__link" href="#footer">Спектакли</a></li>
-          <li>
-            <a class="links__link" href="#footer">Сборник Любимовка.Пьесы</a>
-          </li>
-          <li><a class="links__link" href="#footer">Lark+Любимовка</a></li>
-          <li>
-            <a class="links__link" href="#footer">Практика постдраматурга</a>
-          </li>
-          <li><a class="links__link" href="#footer">Эхо Любимовки</a></li>
-        </ul>
-      </div>
-      <div class="footer__partners partners">
-        <p class="partners__title">Генеральные<br />партнеры</p>
-        <div class="partners__logotypes">
-          <figure class="partners__logotype">
-            <img class="partners__img" src="./images/logo/footer-prohorov.png" alt="Логотип партнера" />
-            <figcaption class="partners__caption">
-              Генеральный партнер
-            </figcaption>
-          </figure>
-          <figure class="partners__logotype">
-            <img class="partners__img" src="./images/logo/footer-mosbrew.png" alt="Логотип партнера" />
-          </figure>
-          <figure class="partners__logotype">
-            <img class="partners__img" src="./images/logo/footer-sbtg.png" alt="Логотип партнера" />
-            <figcaption class="partners__caption">
-              Онлайн-трансляции
-            </figcaption>
-          </figure>
-          <figure class="partners__logotype">
-            <img class="partners__img" src="./images/logo/footer-asay.png" alt="Логотип партнера" />
-          </figure>
-        </div>
-      </div>
+      <section class="schedule schedule_theme_mobile schedule_theme_position">
+        <h2 class="title schedule__title">
+          Заголовок блока <br />
 
-      <div class="footer__copyrights copyrights">
-        <div class="copyrights__block">
-          <p class="copyrights__paragraph">&copy; Любимовка, 2022</p>
-          <p class="copyrights__paragraph">Политика конфиденциальности</p>
-          <!--тут должна быть ссылка-->
+          с тремя и более спектаклями
+        </h2>
+        <div class="schedule__items">
+          <div class="schedule-elem">
+            <img
+              src="./images/schedule-elem__image.jpg"
+              alt="Афиша спектакля МАМА"
+              class="schedule-elem__image"
+            />
+
+            <div class="schedule-elem__content">
+              <div class="schedule-elem__data">
+                <p class="schedule-elem__date">15 декабря</p>
+                <p class="schedule-elem__date">11:00</p>
+              </div>
+
+              <h3 class="schedule-elem__name">МАМА</h3>
+
+              <div class="schedule-elem__authors">
+                <p class="schedule-elem__author">Драматург: Ольга Казакова</p>
+                <p class="schedule-elem__author">Режиссёр: Катя Ганюшинаяч</p>
+              </div>
+              <p class="schedule-elem__description">
+                читка проекта Любимовка.Ещё
+              </p>
+            </div>
+            <div class="schedule-elem__links">
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />О СПЕКТАКЛЕ
+              </a>
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />БИЛЕТЫ
+              </a>
+            </div>
+          </div>
+          <div class="schedule-elem">
+            <img
+              src="./images/schedule-elem__image.jpg"
+              alt="Афиша спектакля МАМА"
+              class="schedule-elem__image"
+            />
+
+            <div class="schedule-elem__content">
+              <div class="schedule-elem__data">
+                <p class="schedule-elem__date">15 декабря</p>
+                <p class="schedule-elem__date">11:00</p>
+              </div>
+
+              <h3 class="schedule-elem__name">МАМА</h3>
+
+              <div class="schedule-elem__authors">
+                <p class="schedule-elem__author">Драматург: Ольга Казакова</p>
+                <p class="schedule-elem__author">Режиссёр: Катя Ганюшинаяч</p>
+              </div>
+              <p class="schedule-elem__description">
+                читка проекта Любимовка.Ещё
+              </p>
+            </div>
+            <div class="schedule-elem__links">
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />О СПЕКТАКЛЕ
+              </a>
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />БИЛЕТЫ
+              </a>
+            </div>
+          </div>
+          <div class="schedule-elem">
+            <img
+              src="./images/schedule-elem__image.jpg"
+              alt="Афиша спектакля МАМА"
+              class="schedule-elem__image"
+            />
+
+            <div class="schedule-elem__content">
+              <div class="schedule-elem__data">
+                <p class="schedule-elem__date">15 декабря</p>
+                <p class="schedule-elem__date">11:00</p>
+              </div>
+
+              <h3 class="schedule-elem__name">МАМА</h3>
+
+              <div class="schedule-elem__authors">
+                <p class="schedule-elem__author">Драматург: Ольга Казакова</p>
+                <p class="schedule-elem__author">Режиссёр: Катя Ганюшинаяч</p>
+              </div>
+              <p class="schedule-elem__description">
+                читка проекта Любимовка.Ещё
+              </p>
+            </div>
+            <div class="schedule-elem__links">
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />О СПЕКТАКЛЕ
+              </a>
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />БИЛЕТЫ
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="copyrights__block">
-          <p class="copyrights__paragraph copyrights__paragraph_logo">
-            <img src="./images/logo/footer-shishki-logo.png" alt="Логотип коллектива Шишки"
-              class="copyrights__shishki-logo" />
-            <span class="copyrights__shishki-text">дизайн сайта —<br /><a href="#footer"
-                class="copyrights__link">shishki.collective</a></span>
+      </section>
+      <section class="schedule schedule_theme_mobile">
+        <h2 class="title schedule__title title_theme_size">
+          Заголовок блока <br />
+          с двумя спектаклями
+        </h2>
+        <div class="schedule__items schedule__items_theme_size">
+          <div class="schedule-elem schedule-elem_theme_size">
+            <img
+              src="./images/schedule-elem__image.jpg"
+              alt="Афиша спектакля МАМА"
+              class="schedule-elem__image"
+            />
+
+            <div class="schedule-elem__content">
+              <div class="schedule-elem__data">
+                <p class="schedule-elem__date">15 декабря</p>
+                <p class="schedule-elem__date">11:00</p>
+              </div>
+
+              <h3 class="schedule-elem__name">МАМА</h3>
+
+              <div class="schedule-elem__authors">
+                <p class="schedule-elem__author">Драматург: Ольга Казакова</p>
+                <p class="schedule-elem__author">Режиссёр: Катя Ганюшинаяч</p>
+              </div>
+              <p class="schedule-elem__description">
+                читка проекта Любимовка.Ещё
+              </p>
+            </div>
+            <div class="schedule-elem__links">
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />О СПЕКТАКЛЕ
+              </a>
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />БИЛЕТЫ
+              </a>
+            </div>
+          </div>
+
+          <div class="schedule-elem schedule-elem_theme_size">
+            <img
+              src="./images/schedule-elem__image.jpg"
+              alt="Афиша спектакля МАМА"
+              class="schedule-elem__image"
+            />
+
+            <div class="schedule-elem__content">
+              <div class="schedule-elem__data">
+                <p class="schedule-elem__date">15 декабря</p>
+                <p class="schedule-elem__date">11:00</p>
+              </div>
+
+              <h3 class="schedule-elem__name">МАМА</h3>
+
+              <div class="schedule-elem__authors">
+                <p class="schedule-elem__author">Драматург: Ольга Казакова</p>
+                <p class="schedule-elem__author">Режиссёр: Катя Ганюшинаяч</p>
+              </div>
+              <p class="schedule-elem__description">
+                читка проекта Любимовка.Ещё
+              </p>
+            </div>
+            <div class="schedule-elem__links">
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />О СПЕКТАКЛЕ
+              </a>
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />БИЛЕТЫ
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="schedule schedule_theme_size schedule_theme_mobile">
+        <h2 class="title title_theme_size">
+          Заголовок блока <br />
+          с одним спектаклем
+        </h2>
+        <div class="schedule__items schedule__items_theme_position">
+          <div class="schedule-elem">
+            <img
+              src="./images/schedule-elem__image.jpg"
+              alt="Афиша спектакля МАМА"
+              class="schedule-elem__image"
+            />
+
+            <div class="schedule-elem__content">
+              <div class="schedule-elem__data">
+                <p class="schedule-elem__date">15 декабря</p>
+                <p class="schedule-elem__date">11:00</p>
+              </div>
+
+              <h3 class="schedule-elem__name">МАМА</h3>
+
+              <div class="schedule-elem__authors">
+                <p class="schedule-elem__author">Драматург: Ольга Казакова</p>
+                <p class="schedule-elem__author">Режиссёр: Катя Ганюшинаяч</p>
+              </div>
+              <p class="schedule-elem__description">
+                читка проекта Любимовка.Ещё
+              </p>
+            </div>
+            <div class="schedule-elem__links">
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />О СПЕКТАКЛЕ
+              </a>
+              <a class="schedule-elem__link" target="_blank" href="#">
+                <img
+                  src="./images/arrow-right.svg"
+                  alt="Стрелка на кнопке"
+                  class="schedule-elem__link-image"
+                />БИЛЕТЫ
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img src="images/logo/footer-logo.png" alt="Логотип - Любимовка" />
+        </div>
+        <address class="footer__address address">
+          <p class="address__title">Площадка «8/3»</p>
+          <p class="address__text">
+            <span>Москва,</span>
+            <span>ул. Казакова, 8, стр. 3</span>
+            <span>Метро "Курская"</span>
           </p>
-          <p class="copyrights__paragraph">
-            вёрстка и разработака —<br /><a href="#footer" class="copyrights__link">студенты Яндекс.Практикума</a>
-          </p>
+        </address>
+        <div class="footer__lists links">
+          <ul class="links__list">
+            <li>Любимовка</li>
+            <li><a class="links__link" href="#footer">Афиша</a></li>
+            <li><a class="links__link" href="#footer">Библиотека</a></li>
+            <li><a class="links__link" href="#footer">Блог</a></li>
+            <li><a class="links__link" href="#footer">Новости</a></li>
+          </ul>
+          <ul class="links__list">
+            <li>О фестивале</li>
+            <li><a class="links__link" href="#footer">Организаторы</a></li>
+            <li><a class="links__link" href="#footer">История</a></li>
+            <li><a class="links__link" href="#footer">Контакты</a></li>
+            <li><a class="links__link" href="#footer">Для прессы</a></li>
+          </ul>
+          <ul class="links__list">
+            <li>Все проекты</li>
+            <li><a class="links__link" href="#footer">Любимовка.Еще</a></li>
+            <li><a class="links__link" href="#footer">Спектакли</a></li>
+            <li>
+              <a class="links__link" href="#footer">Сборник Любимовка.Пьесы</a>
+            </li>
+            <li><a class="links__link" href="#footer">Lark+Любимовка</a></li>
+            <li>
+              <a class="links__link" href="#footer">Практика постдраматурга</a>
+            </li>
+            <li><a class="links__link" href="#footer">Эхо Любимовки</a></li>
+          </ul>
+        </div>
+        <div class="footer__partners partners">
+          <p class="partners__title">Генеральные<br />партнеры</p>
+          <div class="partners__logotypes">
+            <figure class="partners__logotype">
+              <img
+                class="partners__img"
+                src="./images/logo/footer-prohorov.png"
+                alt="Логотип партнера"
+              />
+              <figcaption class="partners__caption">
+                Генеральный партнер
+              </figcaption>
+            </figure>
+            <figure class="partners__logotype">
+              <img
+                class="partners__img"
+                src="./images/logo/footer-mosbrew.png"
+                alt="Логотип партнера"
+              />
+            </figure>
+            <figure class="partners__logotype">
+              <img
+                class="partners__img"
+                src="./images/logo/footer-sbtg.png"
+                alt="Логотип партнера"
+              />
+              <figcaption class="partners__caption">
+                Онлайн-трансляции
+              </figcaption>
+            </figure>
+            <figure class="partners__logotype">
+              <img
+                class="partners__img"
+                src="./images/logo/footer-asay.png"
+                alt="Логотип партнера"
+              />
+            </figure>
+          </div>
+        </div>
+
+        <div class="footer__copyrights copyrights">
+          <div class="copyrights__block">
+            <p class="copyrights__paragraph">&copy; Любимовка, 2022</p>
+            <p class="copyrights__paragraph">Политика конфиденциальности</p>
+            <!--тут должна быть ссылка-->
+          </div>
+          <div class="copyrights__block">
+            <p class="copyrights__paragraph copyrights__paragraph_logo">
+              <img
+                src="./images/logo/footer-shishki-logo.png"
+                alt="Логотип коллектива Шишки"
+                class="copyrights__shishki-logo"
+              />
+              <span class="copyrights__shishki-text"
+                >дизайн сайта —<br /><a href="#footer" class="copyrights__link"
+                  >shishki.collective</a
+                ></span
+              >
+            </p>
+            <p class="copyrights__paragraph">
+              вёрстка и разработака —<br /><a
+                href="#footer"
+                class="copyrights__link"
+                >студенты Яндекс.Практикума</a
+              >
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
