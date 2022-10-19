@@ -1,0 +1,13 @@
+.schedule-elem__authors {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin: 1.11vw 1px 0 2.08vw;
+}
+
+@media (max-width: 730px) {
+  .schedule-elem__authors {
+    margin: 8px 80px 0 0;
+    row-gap: 0;
+  }
+}

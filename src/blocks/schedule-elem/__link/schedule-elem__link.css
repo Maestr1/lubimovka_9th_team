@@ -1,0 +1,23 @@
+.schedule-elem__link {
+  font-weight: 300;
+  font-size: 1.11vw;
+  line-height: 0.97vw;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  padding: 0;
+  margin: 0;
+  max-width: 10.69vw;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 730px) {
+  .schedule-elem__link {
+    font-size: 16px;
+    line-height: 14px;
+    max-width: 140px;
+  }
+}

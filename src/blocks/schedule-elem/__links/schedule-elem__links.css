@@ -1,0 +1,15 @@
+.schedule-elem__links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.11vw;
+  margin-top: 16px;
+  grid-area: links;
+}
+
+@media (max-width: 730px) {
+  .schedule-elem__links {
+    margin-top: 40px;
+    flex-direction: row;
+    column-gap: 27px;
+  }
+}

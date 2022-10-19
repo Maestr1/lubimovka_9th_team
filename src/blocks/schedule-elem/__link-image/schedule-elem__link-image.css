@@ -1,0 +1,11 @@
+.schedule-elem__link-image {
+  max-width: 1.74vw;
+  max-height: 1.74vw;
+}
+
+@media (max-width: 730px) {
+  .schedule-elem__link-image {
+    max-width: 25px;
+    max-height: 25px;
+  }
+}
