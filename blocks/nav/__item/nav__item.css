@@ -9,3 +9,35 @@
   padding-right: 40px;
 }
 
+@media (max-width: 1140px) {
+  .nav__item {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav__item {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav__item:last-child {
+    padding-right: 28px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__item {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__item:last-child {
+    padding-right: 25px;
+  }
+}

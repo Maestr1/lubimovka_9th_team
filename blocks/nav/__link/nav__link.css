@@ -1,7 +1,6 @@
 .nav__link {
   display: flex;
   position: relative;
-  /* justify-content: space-between; */
   text-decoration: none;
   font-family: "NeueMachinaRegular", Arial, sans-serif;
   font-size: 16px;
@@ -49,4 +48,27 @@
 
 .nav__link:hover {
   text-decoration: none;
+}
+
+@media (max-width: 920px) {
+  .nav__link {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__link::before {
+    width: 8px;
+    height: 20px;
+    left: -5px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__link::after {
+    width: 8px;
+    height: 20px;
+    right: -5px;
+  }
 }

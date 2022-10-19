@@ -9,3 +9,23 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+@media (max-width: 1140px) {
+  .nav__donate-text {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__donate-text {
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav__donate-text {
+    display: none;
+  }
+}

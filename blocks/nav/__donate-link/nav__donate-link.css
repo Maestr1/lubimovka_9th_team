@@ -48,3 +48,16 @@
 .nav__donate-link:hover {
   text-decoration: none;
 }
+
+@media (max-width: 1100px) {
+.nav__donate-link {
+  font-size: 15px;
+  line-height: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+.nav__donate-link:hover:before, .nav__donate-link:hover:after {
+  visibility: hidden;
+  }
+}

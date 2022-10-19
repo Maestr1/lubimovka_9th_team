@@ -1,0 +1,13 @@
+.navbar__btn-projects {
+  display: none;
+}
+
+@media (max-width: 728px) {
+  .navbar__btn-projects {
+    display: block;
+    width: 115px;
+    height: 32px;
+    padding-top: 32px;
+    padding-left: 19px;
+  }
+}

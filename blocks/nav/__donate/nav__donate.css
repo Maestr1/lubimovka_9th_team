@@ -12,13 +12,29 @@
   position: absolute;
   left: -40px;
   bottom: 6px;
-  /* bottom: 0; */
-  /* right: 0;
-  bottom: 0;
-  display: block; */
-  /* align-self: flex-end; */
-  /* height: 0; */
   width: 50px;
   border-top: 1px solid #242424;
   transform: rotate(90deg);
+}
+
+@media (max-width: 1140px) {
+  .nav__donate::before {
+  left: -35px;
+  bottom: 5px;
+  width: 40px;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav__donate::before {
+  left: -30px;
+  bottom: 4px;
+  width: 40px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__donate {
+  padding-right: 14px;
+  }
 }
