@@ -1,6 +1,13 @@
 .navbar {
   display: flex;
-  align-items: flex-start;
-  padding-left: 1.5rem;
-  outline: 1px solid blue;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  /* place-content: stretch; */
+  min-height: 61px;
+  font-family: "NeueMachinaRegular", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #242424;
 }

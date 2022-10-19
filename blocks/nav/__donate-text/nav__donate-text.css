@@ -1,0 +1,9 @@
+.nav__donate-text {
+  font-family: "NeueMachinaRegular", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #242424;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

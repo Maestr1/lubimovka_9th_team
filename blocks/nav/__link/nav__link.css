@@ -1,0 +1,9 @@
+.nav__link {
+  text-decoration: none;
+  font-family: "NeueMachinaRegular", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: inherit;
+  white-space: nowrap;
+}
