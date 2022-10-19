@@ -1,4 +1,6 @@
 .nav__link {
+  display: flex;
+  /* justify-content: space-between; */
   text-decoration: none;
   font-family: "NeueMachinaRegular", Arial, sans-serif;
   font-size: 16px;
@@ -6,4 +8,45 @@
   font-weight: 300;
   color: inherit;
   white-space: nowrap;
+  position: relative;
 }
+
+.nav__link::before {
+  content: "";
+  display: block;
+  border-top-left-radius: 200% 100%;
+  border-bottom-left-radius: 200% 100%;
+  width: 10px;
+  height: 25px;
+  box-sizing: border-box;
+  border: 0.0625rem solid;
+  border-right: 0;
+  margin-left: -1px;
+  position: absolute;
+  left: -10px;
+  visibility: hidden;
+}
+
+.nav__link::after {
+  content: "";
+  display: block;
+  border-top-right-radius: 200% 100%;
+  border-bottom-right-radius: 200% 100%;
+  width: 10px;
+  height: 25px;
+  box-sizing: border-box;
+  border: 0.0625rem solid;
+  border-left: 0;
+  position: absolute;
+  right: -10px;
+  visibility: hidden;
+}
+
+.nav__link:hover:before, .nav__link:hover:after {
+  visibility: visible;
+}
+
+.nav__link:hover {
+  text-decoration: none;
+}
+

@@ -3,7 +3,3 @@
   align-items: center;
   text-decoration: none;
 }
-
-.nav__donate-link::before {
-  content: "";
-}
