@@ -1,0 +1,12 @@
+.persons__title {
+  font-family: "NeueMachinaRegular", "sans-serif";
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  width: 190px;
+  height: 64px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}

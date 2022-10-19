@@ -6,6 +6,13 @@
 /* ---------------Fonts-------------- */
 @import url(../vendor/fonts/FormularLight/formular-light.css);
 @import url(../vendor/fonts/NeueMachinaRegular/neue-machina-regular.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/persons/__subtitle/persons__subtitle.css);
+@import url(../blocks/persons/__foto/persons__foto.css);
+@import url(../blocks/persons/__title/persons__title.css);
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__list/persons__list.css);
+@import url(../blocks/persons/__item/persons__item.css);
 
 /* ---------------hero-------------- */
 
