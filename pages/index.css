@@ -45,6 +45,7 @@
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__list/links__list.css);
 @import url(../blocks/links/__link/links__link.css);
+@import url(../blocks/links/__title/links__title.css);
 
 @import url(../blocks/copyrights/copyrights.css);
 @import url(../blocks/copyrights/__block/copyrights__block.css);
