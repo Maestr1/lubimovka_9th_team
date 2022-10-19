@@ -1,0 +1,17 @@
+.persons__item {
+   display: flex;
+   flex-direction: column;
+   margin-top: 0;
+   width: 210px;
+   margin-right: 30px;
+}
+
+.persons__item:last-child{
+  margin-right: 0;
+}
+
+@media all and (max-width:935px) {
+  .persons__item {
+    margin-bottom: 20px;
+  }
+}

@@ -2,6 +2,13 @@
 
 @import url(../vendor/fonts/FormularLight/formular-light.css);
 @import url(../vendor/fonts/NeueMachinaRegular/neue-machina-regular.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/persons/__subtitle/persons__subtitle.css);
+@import url(../blocks/persons/__foto/persons__foto.css);
+@import url(../blocks/persons/__title/persons__title.css);
+@import url(../blocks/persons-section/persons-section.css);
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__item/persons__item.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

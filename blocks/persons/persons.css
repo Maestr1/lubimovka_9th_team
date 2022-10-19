@@ -1,0 +1,15 @@
+.persons {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media all and (max-width:935px) {
+  .persons {
+    margin-left: auto;
+   justify-content: center;
+
+  }
+
+}
