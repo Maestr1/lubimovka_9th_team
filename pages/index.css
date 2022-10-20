@@ -28,6 +28,23 @@
 @import url(../blocks/hero/__pic/hero__pic.css);
 
 /* ---------------Footer-------------- */
+@import url(../blocks/header/header.css);
+@import url(../blocks/navbar/navbar.css);
+@import url(../blocks/navbar/__logo/navbar__logo.css);
+@import url(../blocks/navbar/__btn-projects/navbar__btn-projects.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__main/nav__main.css);
+@import url(../blocks/nav/__social/nav__social.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__item-social/nav__item-social.css);
+@import url(../blocks/nav/__donate/nav__donate.css);
+@import url(../blocks/nav/__donate/__donate-link/nav__donate-link.css);
+@import url(../blocks/nav/__donate-text/nav__donate-text.css);
+@import url(../blocks/nav/__donate-plus/nav__donate-plus.css);
+@import url(../blocks/nav/__donate-link/nav__donate-link.css);
+@import url(../blocks/nav/__tooltip/nav__tooltip.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -36,7 +53,6 @@
 @import url(../blocks/footer/__lists/footer__lists.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
-
 
 @import url(../blocks/address/address.css);
 @import url(../blocks/address/__title/address__title.css);

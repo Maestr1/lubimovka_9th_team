@@ -1,0 +1,8 @@
+.nav__main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}

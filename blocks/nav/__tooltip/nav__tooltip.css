@@ -1,0 +1,32 @@
+.nav__tooltip {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: "NeueMachinaRegular", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .nav__tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: -50px;
+    top: 0;
+    background: #242424;
+    color: #ecebe8;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    transition: 1s;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav__tooltip:hover::after {
+    opacity: 1;
+    top: 26px;
+  }
+}

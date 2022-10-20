@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  align-items: center;
+  min-height: 61px;
+}
+
+@media (max-width: 728px) {
+  .nav {
+    display: none;
+  }
+}

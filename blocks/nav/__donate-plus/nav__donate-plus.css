@@ -1,0 +1,18 @@
+.nav__donate-plus {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1100px) {
+  .nav__donate-plus {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__donate-plus:hover {
+  }
+}

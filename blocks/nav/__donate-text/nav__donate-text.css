@@ -1,0 +1,31 @@
+.nav__donate-text {
+  display: flex;
+  position: relative;
+  font-family: "NeueMachinaRegular", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #242424;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (max-width: 1140px) {
+  .nav__donate-text {
+    font-size: 13px;
+    line-height: 13px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav__donate-text {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav__donate-text {
+    display: none;
+  }
+}
