@@ -7,27 +7,27 @@
 
 @media (max-width: 1140px) {
   .navbar__logo {
-  width: 43px;
-  height: 35px;
-  padding-top: 11px;
-  padding-left: 25px;
+    width: 43px;
+    height: 35px;
+    padding-top: 11px;
+    padding-left: 25px;
   }
 }
 
 @media (max-width: 990px) {
   .navbar__logo {
-  width: 40px;
-  height: 32px;
-  padding-right: 20px;
+    width: 40px;
+    height: 32px;
+    padding-right: 20px;
   }
 }
 
 @media (max-width: 728px) {
   .navbar__logo {
-  width: 43px;
-  height: 34px;
-  padding-top: 32px;
-  padding-right: 20px;
+    width: 43px;
+    height: 34px;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 19px;
   }
 }
-

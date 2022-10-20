@@ -6,6 +6,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__logo/navbar__logo.css);
+@import url(../blocks/navbar/__btn-projects/navbar__btn-projects.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__main/nav__main.css);
 @import url(../blocks/nav/__social/nav__social.css);
@@ -18,8 +19,6 @@
 @import url(../blocks/nav/__donate-plus/nav__donate-plus.css);
 @import url(../blocks/nav/__donate-link/nav__donate-link.css);
 @import url(../blocks/nav/__tooltip/nav__tooltip.css);
-@import url(../blocks/navbar/__btn-projects/navbar__btn-projects.css);
-@import url(../blocks/navbar/__btn-link/navbar__btn-link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
