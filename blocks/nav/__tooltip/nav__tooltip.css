@@ -1,4 +1,6 @@
 .nav__tooltip {
+  display: flex;
+  align-items: center;
   position: relative;
   font-family: "NeueMachinaRegular", Arial, sans-serif;
   font-size: 12px;

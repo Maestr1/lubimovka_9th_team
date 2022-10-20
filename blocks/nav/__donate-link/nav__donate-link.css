@@ -1,5 +1,6 @@
 .nav__donate-link {
   display: flex;
+  align-items: center;
   position: relative;
   text-decoration: none;
   font-family: "NeueMachinaRegular", Arial, sans-serif;
@@ -53,6 +54,24 @@
 .nav__donate-link {
   font-size: 15px;
   line-height: 20px;
+  }
+}
+
+
+
+@media (max-width: 920px) {
+.nav__donate-link::before {
+    width: 8px;
+    height: 20px;
+    left: 0;
+  }
+}
+
+@media (max-width: 920px) {
+.nav__donate-link::after {
+    width: 8px;
+    height: 20px;
+    right: -5px;
   }
 }
 
