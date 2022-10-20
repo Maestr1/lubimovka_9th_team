@@ -1,5 +1,6 @@
 .nav {
   display: flex;
+  min-height: 61px;
 }
 
 @media (max-width: 728px) {
