@@ -1,8 +1,33 @@
-@import url(../vendor/normalize.css);
+/* ---------------Common-------------- */
 
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+
+/* ---------------Fonts-------------- */
 @import url(../vendor/fonts/FormularLight/formular-light.css);
 @import url(../vendor/fonts/NeueMachinaRegular/neue-machina-regular.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/persons/__subtitle/persons__subtitle.css);
+@import url(../blocks/persons/__foto/persons__foto.css);
+@import url(../blocks/persons/__title/persons__title.css);
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__list/persons__list.css);
+@import url(../blocks/persons/__item/persons__item.css);
 
+/* ---------------hero-------------- */
+
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__link/hero__link-wrap.css);
+@import url(../blocks/hero/__back-btn/hero__back-btn.css);
+@import url(../blocks/hero/__wrap/hero__wrap.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__main/hero__main.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__desc/hero__desc.css);
+@import url(../blocks/hero/__pic/hero__pic.css);
+
+/* ---------------Footer-------------- */
 @import url(../blocks/header/header.css);
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__logo/navbar__logo.css);
@@ -23,6 +48,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logo-img/footer__logo-img.css);
 @import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__lists/footer__lists.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
@@ -42,6 +68,7 @@
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__list/links__list.css);
 @import url(../blocks/links/__link/links__link.css);
+@import url(../blocks/links/__title/links__title.css);
 
 @import url(../blocks/copyrights/copyrights.css);
 @import url(../blocks/copyrights/__block/copyrights__block.css);

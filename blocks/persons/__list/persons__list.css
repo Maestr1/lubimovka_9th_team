@@ -1,0 +1,12 @@
+.persons__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media all and (max-width:935px) {
+  .persons__list {
+    margin-left: auto;
+   justify-content: center;
+  }
+}

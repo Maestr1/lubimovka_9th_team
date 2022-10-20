@@ -1,0 +1,6 @@
+.hero__pic {
+  width: 100%;
+  aspect-ratio: 1.618;
+  background-image: url(../../../images/header-pic.png);
+  background-size: cover;
+}
