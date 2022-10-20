@@ -14,20 +14,7 @@
 @import url(../blocks/persons/__list/persons__list.css);
 @import url(../blocks/persons/__item/persons__item.css);
 
-/* ---------------hero-------------- */
-
-
-@import url(../blocks/hero/hero.css);
-@import url(../blocks/hero/__link/hero__link-wrap.css);
-@import url(../blocks/hero/__back-btn/hero__back-btn.css);
-@import url(../blocks/hero/__wrap/hero__wrap.css);
-@import url(../blocks/hero/__title/hero__title.css);
-@import url(../blocks/hero/__main/hero__main.css);
-@import url(../blocks/hero/__subtitle/hero__subtitle.css);
-@import url(../blocks/hero/__desc/hero__desc.css);
-@import url(../blocks/hero/__pic/hero__pic.css);
-
-/* ---------------Footer-------------- */
+/* ---------------Header-------------- */
 @import url(../blocks/header/header.css);
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__logo/navbar__logo.css);
@@ -45,6 +32,18 @@
 @import url(../blocks/nav/__donate-link/nav__donate-link.css);
 @import url(../blocks/nav/__tooltip/nav__tooltip.css);
 
+/* ---------------Hero-------------- */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__link/hero__link-wrap.css);
+@import url(../blocks/hero/__back-btn/hero__back-btn.css);
+@import url(../blocks/hero/__wrap/hero__wrap.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__main/hero__main.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__desc/hero__desc.css);
+@import url(../blocks/hero/__pic/hero__pic.css);
+
+/* ---------------Footer-------------- */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
