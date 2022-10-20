@@ -31,6 +31,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__logo-img/footer__logo-img.css);
 @import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__lists/footer__lists.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
@@ -51,6 +52,7 @@
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__list/links__list.css);
 @import url(../blocks/links/__link/links__link.css);
+@import url(../blocks/links/__title/links__title.css);
 
 @import url(../blocks/copyrights/copyrights.css);
 @import url(../blocks/copyrights/__block/copyrights__block.css);

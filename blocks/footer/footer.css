@@ -1,12 +1,6 @@
 .footer {
-  background-color: #ecebe8;
-  font-family: "FormularLight";
+  font-family: "FormularLight", sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #242424;
-}
-
-a:hover {
-  text-decoration: underline;
 }
