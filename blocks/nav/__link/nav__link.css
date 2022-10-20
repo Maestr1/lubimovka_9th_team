@@ -23,7 +23,8 @@
   margin-left: -1px;
   position: absolute;
   left: -10px;
-  visibility: hidden;
+  transition: 0.2s ease-in;
+  opacity: 0;
 }
 
 .nav__link::after {
@@ -38,12 +39,13 @@
   border-left: 0;
   position: absolute;
   right: -10px;
-  visibility: hidden;
+  transition: 0.2s ease-in;
+  opacity: 0;
 }
 
 .nav__link:hover:before,
 .nav__link:hover:after {
-  visibility: visible;
+  opacity: 1;
 }
 
 .nav__link:hover {

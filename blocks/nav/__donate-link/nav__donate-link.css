@@ -24,7 +24,8 @@
   margin-left: -1px;
   position: absolute;
   left: -3px;
-  visibility: hidden;
+  transition: 0.2s ease-in;
+  opacity: 0;
 }
 
 .nav__donate-link::after {
@@ -39,11 +40,12 @@
   border-left: 0;
   position: absolute;
   right: -10px;
-  visibility: hidden;
+  transition: 0.2s ease-in;
+  opacity: 0;
 }
 
 .nav__donate-link:hover:before, .nav__donate-link:hover:after {
-  visibility: visible;
+opacity: 1;
 }
 
 .nav__donate-link:hover {
