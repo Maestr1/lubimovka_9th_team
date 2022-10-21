@@ -1,18 +1,20 @@
 .schedule-elem__image {
-  margin-right: 2.08vw;
+  margin-right: 25px;
   object-fit: cover;
   width: 100%;
-  max-height: 11.18vw;
-  max-width: 8.33vw;
+  max-height: 160px;
+  max-width: 120px;
   grid-area: image;
   height: 160px;
   width: 120px;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 728px) {
   .schedule-elem__image {
-    max-height: 29.7vw;
-    max-width: 21.7vw;
-    margin-right: 0;
+    max-height: 123px;
+    max-width: 92px;
+    height: 123px;
+    width: 92px;
+    margin-right: 30px;
   }
 }

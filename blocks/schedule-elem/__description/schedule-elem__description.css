@@ -1,16 +1,22 @@
 .schedule-elem__description {
   padding: 0;
-  margin: 16px 8.5vw 0 0;
+  margin: 16px 119px 0 0;
   font-weight: 300;
-  font-size: 0.97vw;
-  line-height: 1.18vw;
+  font-size: 14px;
+  line-height: 17px;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 728px) {
   .schedule-elem__description {
-    margin: 8px 93px 0 0;
-    width: 190px;
-    font-size: 3.38vw;
-    line-height: 4.11vw;
+    margin: 5px 0 0 0;
+    max-width: 190px;
+  }
+}
+
+@media (max-width: 400px) {
+  .schedule-elem__description {
+    font-size: 11px;
+    line-height: 15px;
+    max-width: 150px;
   }
 }

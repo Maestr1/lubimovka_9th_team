@@ -1,17 +1,16 @@
 .schedule__items {
   margin: 75px auto 0 auto;
   display: flex;
-  column-gap: 2.15vw;
-  row-gap: 5.21vw;
+  column-gap: 30px;
   align-self: center;
   justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 50px;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 728px) {
   .schedule__items {
-    margin-top: 0;
+    margin: 34px auto 0 auto;
     flex-direction: column;
-    row-gap: 0;
-    padding: 0 24px;
   }
 }

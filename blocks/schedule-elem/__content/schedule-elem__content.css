@@ -3,9 +3,3 @@
   flex-direction: column;
   grid-area: content;
 }
-
-@media (max-width: 730px) {
-  .schedule-elem__content {
-    margin-left: 30px;
-  }
-}
