@@ -1,0 +1,8 @@
+.copyrights__paragraph-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.copyrights__paragraph-link:hover {
+  text-decoration: underline;
+}
