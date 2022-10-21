@@ -12,18 +12,9 @@
 
 @media (max-width: 576px) {
   .footer__partners-logotypes {
-    flex-wrap: wrap;
-    row-gap: 55px;
-    column-gap: 50px;
-    justify-content: space-between;
-    justify-items: center;
+    display: grid;
+    grid-auto-rows: 118px;
+    grid-template-columns: repeat(auto-fit, 182px);
     align-items: center;
-  }
-}
-
-@media (max-width: 407px) {
-  .footer__partners-logotypes {
-    flex-direction: column;
-    gap: 20px;
   }
 }

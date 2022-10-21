@@ -20,5 +20,6 @@
     padding: 32px 27px 74px;
     flex-direction: column;
     row-gap: 60px;
+    border-top: 1px solid #242424;
   }
 }

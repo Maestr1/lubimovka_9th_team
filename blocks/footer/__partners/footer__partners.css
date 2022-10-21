@@ -27,7 +27,9 @@
 @media (max-width: 576px) {
   .footer__partners {
     grid-area: 4 / 1 / 5 / 2;
-    padding: 0 55px 80px;
-    border-bottom: 1px solid #242424;
+    display: block;
+    max-width: 365px;
+    width: 100%;
+    margin: 0 auto 80px 24px;
   }
 }
