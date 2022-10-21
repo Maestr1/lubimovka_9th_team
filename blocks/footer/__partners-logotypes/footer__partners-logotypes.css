@@ -1,0 +1,29 @@
+.footer__partners-logotypes {
+  display: flex;
+  flex-basis: 435px;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .footer__partners-logotypes {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__partners-logotypes {
+    flex-wrap: wrap;
+    row-gap: 55px;
+    column-gap: 50px;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 407px) {
+  .footer__partners-logotypes {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

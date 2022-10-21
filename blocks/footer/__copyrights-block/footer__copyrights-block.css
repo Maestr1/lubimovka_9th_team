@@ -1,0 +1,24 @@
+.footer__copyrights-block {
+  display: flex;
+  column-gap: 32px;
+}
+
+.footer__copyrights-block:last-of-type {
+  margin-right: calc(7.48%);
+}
+
+@media (max-width: 992px) {
+  .footer__copyrights-block {
+    column-gap: 16px;
+  }
+  .footer__copyrights-block:last-of-type {
+    margin-right: calc(2.5%);
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__copyrights-block {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}

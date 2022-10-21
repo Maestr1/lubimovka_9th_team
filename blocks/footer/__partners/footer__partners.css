@@ -1,5 +1,9 @@
 .footer__partners {
   grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  flex-basis: 145px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width: 1200px) {

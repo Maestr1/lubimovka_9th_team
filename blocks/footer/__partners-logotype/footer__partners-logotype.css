@@ -1,0 +1,12 @@
+.footer__partners-logotype {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+@media (max-width: 576px) {
+  .footer__partners-logotype {
+    text-align: center;
+  }
+}

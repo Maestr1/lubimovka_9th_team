@@ -1,0 +1,15 @@
+.footer__partners-caption {
+  padding-top: 20px;
+}
+
+@media (min-width: 577px) {
+  .footer__partners-caption {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__partners-caption {
+    padding-top: 5px;
+  }
+}

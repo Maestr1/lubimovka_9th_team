@@ -1,0 +1,10 @@
+.footer__links-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.footer__links-link:hover {
+  text-decoration: underline;
+}
