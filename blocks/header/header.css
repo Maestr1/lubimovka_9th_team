@@ -1,11 +1,10 @@
 .header {
   display: flex;
   justify-content: space-between;
-  /* background-color: var(--background-color);
-  border-bottom: var(--text-color); */
   background-color: #ecebe8;
   border-bottom: 1px solid #242424;
   margin-bottom: -1px;
+  min-height: 61px;
 }
 
 @media (max-width: 728px) {
