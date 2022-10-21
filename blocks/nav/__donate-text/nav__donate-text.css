@@ -17,13 +17,6 @@
   }
 }
 
-@media (max-width: 920px) {
-  .nav__donate-text {
-    font-size: 12px;
-    line-height: 12px;
-  }
-}
-
 @media (max-width: 800px) {
   .nav__donate-text {
     display: none;

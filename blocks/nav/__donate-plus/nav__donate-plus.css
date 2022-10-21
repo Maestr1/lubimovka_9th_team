@@ -11,8 +11,3 @@
     height: 24px;
   }
 }
-
-@media (max-width: 920px) {
-  .nav__donate-plus:hover {
-  }
-}
