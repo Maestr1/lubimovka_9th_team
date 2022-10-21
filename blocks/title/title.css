@@ -10,13 +10,19 @@
 }
 
 
-@media all and (max-width:1048px) {
+@media all and (min-width:1443px) {
+  .title {
+    margin-left: 30%
+  }
+}
+
+@media all and (max-width:1442px) {
   .title {
     margin-left: 20%;
   }
 }
 
-@media all and (max-width:590px) {
+@media all and (max-width:728px) {
   .title {
     font-size: 28px;
     line-height: 32px;
