@@ -5,8 +5,8 @@
 @media (max-width: 728px) {
   .navbar__btn-projects {
     display: block;
-    width: 115px;
-    height: 32px;
+    width: 125px;
+    height: 35px;
     padding-top: 32px;
   }
 }
