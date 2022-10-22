@@ -1,9 +1,39 @@
 .hero__subtitle {
+  box-sizing: border-box;
   margin: 0;
-  padding-top: 199px;
-  padding-left: 180px;
+  /*padding-top: 199px;*/
+  /*padding-left: 180px;*/
   padding-right: 50px;
+  width: 50%;
   max-width: 420px;
   font-size: 28px;
   line-height: 1.14;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 1100px) {
+  .hero__subtitle {
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 728px) {
+  .hero__subtitle {
+    box-sizing: inherit;
+    padding-left: 86px;
+    padding-bottom: 36px;
+    padding-right: 24px;
+    width: inherit;
+    max-width: 304px;
+    align-self: flex-end;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .hero__subtitle {
+    padding-right: 0;
+  }
 }

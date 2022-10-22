@@ -1,9 +1,23 @@
 .hero__title {
   margin: 0;
-  margin-top: -4px;
+  padding-left: 50%;
   padding-bottom: 65px;
-  max-width: 141px;
+  max-width: 450px;
   font-size: 72px;
   font-weight: 400;
   line-height: .97;
+  /*word-wrap: break-word;*/
+}
+
+@media (max-width: 900px) {
+  .hero__title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 728px) {
+  .hero__title {
+    padding-top: 54px;
+    padding-left: 24px;
+    padding-bottom: 22px;
+  }
 }
