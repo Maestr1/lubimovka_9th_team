@@ -33,6 +33,9 @@
 @import url(../blocks/nav/__donate-link/nav__donate-link.css);
 @import url(../blocks/nav/__tooltip/nav__tooltip.css);
 @import url(../blocks/separator/separator.css);
+@import url(../blocks/navbar/__burger/navbar__burger.css);
+@import url(../blocks/navbar/__burger-content/navbar__burger-content.css);
+@import url(../blocks/navbar/__burger-line/navbar__burger-line.css);
 
 /* ---------------Hero-------------- */
 @import url(../blocks/hero/hero.css);
