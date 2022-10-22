@@ -7,7 +7,7 @@
   min-height: 61px;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 1100px) {
   .header {
   border-bottom: none;
   }
