@@ -1,0 +1,14 @@
+.navbar__overlay-mobile-logo {
+  display: none;
+}
+
+@media (max-width: 728px) {
+.navbar__overlay-mobile-logo {
+display: block;
+  width: 65px;
+  height: 52px;
+  padding-top: 5%;
+  padding-left: 10%;
+  position: relative;
+}
+}
