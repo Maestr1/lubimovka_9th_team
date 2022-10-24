@@ -1,0 +1,27 @@
+.description__text {
+  font-family: 'FormularLight', "sans-serif";
+  margin-left: 31%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss01';
+  max-width: 509px;
+  margin-top: -40px;
+}
+
+@media all and (max-width: 1440px) {
+  .description__text {
+    margin-left: 23%;
+  }
+}
+
+@media all and (max-width: 728px) {
+  .description__text {
+    margin-left: 17%;
+    margin-top: 10px;
+    margin-right: 24px;
+    padding-bottom: 72px;
+  }
+}

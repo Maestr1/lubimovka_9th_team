@@ -7,6 +7,8 @@
 @import url(../vendor/fonts/FormularLight/formular-light.css);
 @import url(../vendor/fonts/NeueMachinaRegular/neue-machina-regular.css);
 @import url(../blocks/title/title.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/persons/__subtitle/persons__subtitle.css);
 @import url(../blocks/persons/__foto/persons__foto.css);
 @import url(../blocks/persons/__title/persons__title.css);
