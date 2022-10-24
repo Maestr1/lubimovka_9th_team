@@ -12,7 +12,7 @@
 
 <body class="page">
 <header class="header">
-  <img src="./images/logo/logo.png" class="navbar__logo" alt="лого">
+  <img src="./images/logo/logo.svg" class="navbar__logo" alt="лого">
   <a class="navbar__link-wrap" href="#"><img class="navbar__btn-projects" src="./images/projects-button.png"
 
                                              alt="кнопка"></a>
@@ -39,20 +39,21 @@
        <div class="separator"></div>
       <div class="nav__donate">
         <a href="#" class="nav__donate-link">
-<!--            <span class="nav__tooltip" data-tooltip="поддержать">-->
               <img src="./images/plus.png" class="nav__donate-plus" alt="plus">
             </span>
           <span class="nav__donate-text">поддержать</span>
         </a>
       </div>
     </nav>
-    <div class="navbar__burger">
-      <div class="navbar__burger-content" role="button" aria-label="закрфть меню">
+
+    <div class="navbar__burger" role="button">
+      <div class="navbar__burger-content" aria-label="закрыть меню">
  <!--  <span class="navbar__burger_open"></span>
         <span class="navbar__burger_open"></span> -->
+<!--        <span class="navbar__burger_open"></span>-->
+        <span class="navbar__burger_open navbar__burger_close"></span>
         <span class="navbar__burger_open"></span>
-        <span class="navbar__burger_close"></span>
-        <span class="navbar__burger_close"></span>
+        <span class="navbar__burger_open navbar__burger_close"></span>
       </div>
     </div>
 <!--    mobile-->
@@ -203,5 +204,7 @@
     </div>
   </div>
 </footer>
+
+<script src="./pages/index.js" defer></script>
 </body>
 </html>

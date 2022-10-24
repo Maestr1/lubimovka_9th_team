@@ -1,0 +1,4 @@
+  .navbar__overlay-mobile_opened {
+    visibility: visible;
+    opacity: 1;
+  }

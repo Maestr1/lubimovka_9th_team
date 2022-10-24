@@ -9,7 +9,7 @@
   color: inherit;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 1100px) {
   .nav__mobile {
     display: flex;
     flex-direction: column;

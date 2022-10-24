@@ -1,16 +1,28 @@
-.navbar__burger_close {
-  /*display: block;*/
+.navbar__burger_close:hover {
+  /*cursor: pointer;*/
 }
 
-@media (max-width: 1100px) {
-  .navbar__burger_close:first-child {
+@media (max-width: 728px) {
+  .navbar__burger_close:first-child { /*:first-child*/
     display: block;
-    width: 1.25rem;
-    height: 0.125rem;
-    margin: 0.25rem auto;
+    width: 25px;
+    height: 3px;
+    margin: 3.5px auto;
     background-color: #E5E5E5;
     transition: all .3s ease-in-out;
-    transform: translateY(0.375rem) rotate(45deg);
+    transform: translateY(5px) rotate(45deg);
+    z-index: 4;
+  }
+}
+@media (max-width: 728px) {
+  .navbar__burger_close:last-child { /*:first-child*/
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 3.5px auto;
+    background-color: #E5E5E5;
+    transition: all .3s ease-in-out;
+    transform: translateY(-5px) rotate(-45deg);
     z-index: 4;
   }
 }
