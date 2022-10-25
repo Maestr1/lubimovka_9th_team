@@ -9,8 +9,8 @@
   }
 }
 
-@media (max-width: 728px) {
-  .navbar__burger_open {
-    display: none;
-  }
-}
+/*@media (max-width: 728px) {*/
+/*  .navbar__burger_open {*/
+/*    display: none;*/
+/*  }*/
+/*}*/

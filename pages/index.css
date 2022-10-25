@@ -36,6 +36,7 @@
 @import url(../blocks/separator/separator.css);
 @import url(../blocks/navbar/__burger/navbar__burger.css);
 @import url(../blocks/navbar/__burger-content/navbar__burger-content.css);
+@import url(../blocks/navbar/__burger-content/_open/navbar__burger-content_open.css);
 @import url(../blocks/navbar/__burger/_open/navbar__burger_open.css);
 @import url(../blocks/navbar/__burger/_close/navbar__burger_close.css);
 /*mobile menu*/
