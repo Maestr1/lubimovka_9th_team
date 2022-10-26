@@ -24,7 +24,6 @@
 @import url(../blocks/nav/__social/nav__social.css);
 @import url(../blocks/nav/__social-link/nav__social-link.css);
 @import url(../blocks/nav/__item/nav__item.css);
-@import url(../blocks/nav/__item/_mobile/nav__item_mobile.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__item-social/nav__item-social.css);
 @import url(../blocks/nav/__donate/nav__donate.css);
@@ -34,17 +33,6 @@
 @import url(../blocks/nav/__donate-link/nav__donate-link.css);
 @import url(../blocks/nav/__tooltip/nav__tooltip.css);
 @import url(../blocks/separator/separator.css);
-@import url(../blocks/navbar/__burger/navbar__burger.css);
-@import url(../blocks/navbar/__burger-content/navbar__burger-content.css);
-@import url(../blocks/navbar/__burger/_open/navbar__burger_open.css);
-@import url(../blocks/navbar/__burger/_close/navbar__burger_close.css);
-/*mobile menu*/
-@import url(../blocks/navbar/__overlay-mobile/navbar__overlay-mobile.css);
-@import url(../blocks/navbar/__overlay-mobile-logo/navbar__overlay-mobile-logo.css);
-@import url(../blocks/navbar/__overlay-mobile-menu/navbar__overlay-mobile-menu.css);
-@import url(../blocks/nav/__mobile/nav__mobile.css);
-@import url(../blocks/nav/__mobile-link/nav__mobile-link.css);
-@import url(../blocks/nav/__mobile-link/_active/nav__mobile-link_active.css);
 
 /* ---------------Hero-------------- */
 @import url(../blocks/hero/hero.css);

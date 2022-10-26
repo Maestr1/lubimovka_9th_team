@@ -10,3 +10,11 @@
     padding-top: 32px;
   }
 }
+
+@media (max-width: 728px) {
+  .navbar__btn-projects {
+    width: 115px;
+    height: 32px;
+    padding-top: 32px;
+  }
+}
