@@ -1,5 +1,5 @@
-const burgerBtn = document.querySelector('.navbar__burger')
-const mobileMenuOverlay = document.querySelector('.navbar__overlay-mobile')
+const burgerBtn = document.querySelector('.burger')
+const mobileMenuOverlay = document.querySelector('.burger__nav')
 // x
 
 // overlay mobile menu open / close  - - -
@@ -9,10 +9,11 @@ function handleBurgerBtn() {
 }
 
 function toggleMobileMenu() {
-  mobileMenuOverlay.classList.toggle('navbar__mobile_opened')
+  mobileMenuOverlay.classList.toggle('burger__nav_opened')
 }
+
 function toggleBurgerButton() {
-  burgerBtn.classList.toggle('navbar__burger_close')
+  burgerBtn.classList.toggle('burger_open')
 }
 
 burgerBtn.addEventListener('click', handleBurgerBtn)

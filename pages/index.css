@@ -24,7 +24,6 @@
 @import url(../blocks/nav/__social/nav__social.css);
 @import url(../blocks/nav/__social-link/nav__social-link.css);
 @import url(../blocks/nav/__item/nav__item.css);
-@import url(../blocks/nav/__item/_mobile/nav__item_mobile.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__item-social/nav__item-social.css);
 @import url(../blocks/nav/__donate/nav__donate.css);
@@ -34,22 +33,21 @@
 @import url(../blocks/nav/__donate-link/nav__donate-link.css);
 @import url(../blocks/nav/__tooltip/nav__tooltip.css);
 @import url(../blocks/separator/separator.css);
-@import url(../blocks/navbar/__burger/navbar__burger.css);
-@import url(../blocks/navbar/__burger-content/navbar__burger-content.css);
-@import url(../blocks/navbar/__burger-content/_open/navbar__burger-content_open.css);
-@import url(../blocks/navbar/__burger/_open/navbar__burger_open.css);
-@import url(../blocks/navbar/__burger/_close/navbar__burger_close.css);
-/*mobile menu*/
-@import url(../blocks/navbar/__mobile/navbar__overlay-mobile.css);
-@import url(../blocks/navbar/__mobile-logo/navbar__mobile-logo.css);
-@import url(../blocks/navbar/__mobile-menu/navbar__mobile-menu.css);
-@import url(../blocks/navbar/__mobile/_opened/navbar__mobile_opened.css);
-@import url(../blocks/navbar/__mobile/_closed/navbar__mobile_closed.css);
-@import url(../blocks/navbar/__mobile-btns/navbar__mobile-btns.css);
-@import url(../blocks/nav/__mobile/nav__mobile.css);
-@import url(../blocks/nav/__mobile-link/nav__mobile-link.css);
-@import url(../blocks/nav/__mobile-link/_active/nav__mobile-link_active.css);
-@import url(../blocks/nav/__mobile-btn/_link/nav__mobile-btn_link.css);
+/*burger*/
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/_open/burger_open.css);
+@import url(../blocks/burger/__btn/burger__btn.css);
+@import url(../blocks/burger/__btn-content/burger__btn-content.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/__nav/burger__nav.css);
+@import url(../blocks/burger/__nav/_opened/burger__nav_opened.css);
+@import url(../blocks/burger/__nav-logo/burger__nav-logo.css);
+@import url(../blocks/burger/__menu/burger__menu.css);
+@import url(../blocks/burger/__menu-list/burger__menu-list.css);
+@import url(../blocks/burger/__menu-item/burger__menu-item.css);
+@import url(../blocks/burger/__menu-link/burger__menu-link.css);
+@import url(../blocks/burger/__menu-link/_active/burger__menu-link_active.css);
+@import url(../blocks/burger/__menu-btns/burger__menu-btns.css);
 
 /* ---------------Hero-------------- */
 @import url(../blocks/hero/hero.css);
