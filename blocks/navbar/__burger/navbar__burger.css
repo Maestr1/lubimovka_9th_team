@@ -10,3 +10,11 @@
     z-index: 3;
   }
 }
+
+@media (max-width: 728px) {
+  .navbar__burger {
+    position: fixed;
+    top: 70%;
+    right: 2px;
+  }
+}

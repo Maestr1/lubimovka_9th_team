@@ -17,3 +17,9 @@
     align-items: flex-start;
  }
 }
+
+@media (max-width: 728px) {
+  .nav__mobile {
+  line-height: 45px;
+  }
+}

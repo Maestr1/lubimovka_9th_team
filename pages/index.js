@@ -9,7 +9,7 @@ function handleBurgerBtn() {
 }
 
 function toggleMobileMenu() {
-  mobileMenuOverlay.classList.toggle('navbar__overlay-mobile_opened')
+  mobileMenuOverlay.classList.toggle('navbar__mobile_opened')
 }
 function toggleBurgerButton() {
   burgerBtn.classList.toggle('navbar__burger_close')

@@ -40,14 +40,16 @@
 @import url(../blocks/navbar/__burger/_open/navbar__burger_open.css);
 @import url(../blocks/navbar/__burger/_close/navbar__burger_close.css);
 /*mobile menu*/
-@import url(../blocks/navbar/__overlay-mobile/navbar__overlay-mobile.css);
-@import url(../blocks/navbar/__overlay-mobile-logo/navbar__overlay-mobile-logo.css);
-@import url(../blocks/navbar/__overlay-mobile-menu/navbar__overlay-mobile-menu.css);
-@import url(../blocks/navbar/__overlay-mobile/_opened/navbar__overlay-mobile_opened.css);
-@import url(../blocks/navbar/__overlay-mobile/_closed/navbar__overlay-mobile_closed.css);
+@import url(../blocks/navbar/__mobile/navbar__overlay-mobile.css);
+@import url(../blocks/navbar/__mobile-logo/navbar__mobile-logo.css);
+@import url(../blocks/navbar/__mobile-menu/navbar__mobile-menu.css);
+@import url(../blocks/navbar/__mobile/_opened/navbar__mobile_opened.css);
+@import url(../blocks/navbar/__mobile/_closed/navbar__mobile_closed.css);
+@import url(../blocks/navbar/__mobile-btns/navbar__mobile-btns.css);
 @import url(../blocks/nav/__mobile/nav__mobile.css);
 @import url(../blocks/nav/__mobile-link/nav__mobile-link.css);
 @import url(../blocks/nav/__mobile-link/_active/nav__mobile-link_active.css);
+@import url(../blocks/nav/__mobile-btn/_link/nav__mobile-btn_link.css);
 
 /* ---------------Hero-------------- */
 @import url(../blocks/hero/hero.css);

@@ -7,13 +7,6 @@
   /*padding-right: 43px;*/
 }
 
-/*@media (max-width: 1100px) {*/
-/*  .navbar__logo {*/
-/*    padding-left: 25px;*/
-/*    padding-right: 25px;*/
-/*  }*/
-/*}*/
-
 @media (max-width: 1100px) {
   .navbar__logo {
     width: 43px;
