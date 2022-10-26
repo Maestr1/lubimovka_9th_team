@@ -1,6 +1,5 @@
 const burgerBtn = document.querySelector('.burger')
 const mobileMenuOverlay = document.querySelector('.burger__nav')
-// x
 
 // overlay mobile menu open / close  - - -
 function handleBurgerBtn() {
@@ -19,6 +18,5 @@ function toggleBurgerButton() {
 burgerBtn.addEventListener('click', handleBurgerBtn)
 
 // burger button status
-
 
 // navbar__burger_close
