@@ -51,6 +51,9 @@
 @import url(../blocks/burger/__menu-btn/burger__menu-btn.css);
 @import url(../blocks/burger/__menu-btn/_link/burger__menu-btn_link.css);
 @import url(../blocks/burger/__social-list/burger__social-list.css);
+@import url(../blocks/burger/__social-item/burger__social-item.css);
+@import url(../blocks/burger/__social-item/_half/burger__social-item_half.css);
+@import url(../blocks/burger/__social-link/burger__social-link.css);
 
 /* ---------------Hero-------------- */
 @import url(../blocks/hero/hero.css);
