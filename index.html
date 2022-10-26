@@ -50,7 +50,7 @@
 <!--  burger section-->
   <section class="burger">
     <!--BURGER- & MOBILE MENU LAYER --------------- -->
-    <div class="burger__btn" role="button">
+    <button type="button" aria-label="burger" class="burger__btn" role="button">
       <div class="burger__btn-content" aria-label="закрыть меню">
         <!--  <span class="burger_open"></span> -->
         <span class="burger__line"></span>
@@ -61,7 +61,7 @@
       <!--        <span class="navbar__burger_close"></span>-->
       <!--        <span class="navbar__burger_close"></span>-->
       <!--      </div>-->
-    </div>
+    </button>
     <!--    mobile-->
     <div class="burger__nav">
       <img src="./images/logo/logo.svg" class="burger__nav-logo" alt="лого">
@@ -80,8 +80,8 @@
       </div>
       <!--      ОТСЮДА..........-->
       <div class="burger__menu-btns">
-        <span class="burger__menu-btn"><a href="#" class="burger__menu-btn_link">подать пьесу</a></span>
-        <span class="burger__menu-btn"><a href="#" class="burger__menu-btn_link">поддержать</a></span>
+        <button type="button" aria-label="submit" class="burger__menu-btn"><a href="#" class="burger__menu-btn_link">подать пьесу</a></button>
+        <button type="button" aria-label="donate" class="burger__menu-btn"><a href="#" class="burger__menu-btn_link">поддержать</a></button>
       </div>
       <ul class="burger__social-list">
         <li class="burger__social-item"><a href="#" class="nav__mobile-social_link">ytube</a></li>
