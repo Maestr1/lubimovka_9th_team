@@ -35,7 +35,7 @@
 @import url(../blocks/separator/separator.css);
 /*burger*/
 @import url(../blocks/burger/burger.css);
-@import url(../blocks/burger/_open/burger_open.css);
+@import url(../blocks/burger/_close/burger_close.css);
 @import url(../blocks/burger/__btn/burger__btn.css);
 @import url(../blocks/burger/__btn-content/burger__btn-content.css);
 @import url(../blocks/burger/__line/burger__line.css);
