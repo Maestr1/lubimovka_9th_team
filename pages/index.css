@@ -75,3 +75,7 @@
 @import url(../blocks/copyrights/__paragraph/_logo/copyrights__paragraph_logo.css);
 @import url(../blocks/copyrights/__shishki-text/copyrights__shishki-text.css);
 @import url(../blocks/copyrights/__link/copyrights__link.css);
+
+
+/* ---------------button-animation-------------- */
+@import url(../blocks/button-animation/rectangular-button.css);

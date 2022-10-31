@@ -1,0 +1,38 @@
+.rectangular-button {
+  position: relative;
+  padding-top: 6px;
+  background-position-y: 50%;
+  transition: color 0.3s, background-image 0.3s;
+}
+
+.rectangular-button:hover {
+  color: #fff;
+  background-image: url(../../images/back-arrow-white.svg);
+}
+
+.rectangular-button:hover:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  display: block;
+  background-color: #000;
+  animation: button-background 0.9s ease forwards;
+  transition: transform 0.1s ease;
+}
+
+.rectangular-button:active:after {
+  transform: scale(1.08, 1.2);
+}
+
+@keyframes button-background {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
