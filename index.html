@@ -12,11 +12,12 @@
 
 <body class="page">
 <header class="header">
-  <img src="./images/logo/logo.png" class="navbar__logo" alt="лого">
+  <img src="./images/logo/logo.svg" class="navbar__logo" alt="лого">
   <a class="navbar__link-wrap" href="#"><img class="navbar__btn-projects" src="./images/projects-button.png"
+
                                              alt="кнопка"></a>
-  <div class="navbar">
-    <nav class="nav">
+  <section class="navbar">
+     <nav class="nav">
       <ul class="nav__main">
         <li class="nav__item"><a href="#" class="nav__link">Афиша</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Библиотека</a></li>
@@ -27,25 +28,94 @@
         <li class="nav__item"><a href="#" class="nav__link">О фестивале</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
       </ul>
-      <!-- <ul class="nav__social">
-        <li class="nav__item-social"><a href="#" class="nav__link">fb</a></li>
-        <li class="nav__item-social"><a href="#" class="nav__link">inst</a></li>
-        <li class="nav__item-social"><a href="#" class="nav__link">ytube</a></li>
-        <li class="nav__item-social"><a href="#" class="nav__link">tlgrm</a></li>
-        <li class="nav__item-social"><a href="#" class="nav__link">vk</a></li>
-      </ul> -->
+       <div class="separator"></div>
+      <ul class="nav__social">
+        <li class="nav__item-social"><a href="#" class="nav__social-link">fb</a></li>
+        <li class="nav__item-social"><a href="#" class="nav__social-link">inst</a></li>
+        <li class="nav__item-social"><a href="#" class="nav__social-link">ytube</a></li>
+        <li class="nav__item-social"><a href="#" class="nav__social-link">tlgrm</a></li>
+        <li class="nav__item-social"><a href="#" class="nav__social-link">vk</a></li>
+      </ul>
+       <div class="separator"></div>
       <div class="nav__donate">
         <a href="#" class="nav__donate-link">
-            <span class="nav__tooltip" data-tooltip="поддержать">
               <img src="./images/plus.png" class="nav__donate-plus" alt="plus">
-            </span>
           <span class="nav__donate-text">поддержать</span>
         </a>
       </div>
     </nav>
-
-  </div>
+    <!-- end of navbar section -->
+  </section>
+<!--  start of burger section-->
+  <section class="burger">
+    <!--BURGER- & MOBILE MENU LAYER --------------- -->
+    <button type="button" aria-label="burger" class="burger__btn" role="button">
+      <div class="burger__btn-content" aria-label="закрыть меню">
+        <span class="burger__line"></span>
+      </div>
+    </button>
+    <!--    mobile-->
+    <div class="burger__nav">
+      <img src="./images/logo/logo.svg" class="burger__nav-logo" alt="лого">
+      <div class="burger__menu">
+        <ul class="burger__menu-list">
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link burger__menu-link_active">Афиша</a></li>
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link">Библиотека</a></li>
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link">Проекты</a></li>
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link">История</a></li>
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link">Блог</a></li>
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link">Новости</a></li>
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link">О фестивале</a></li>
+          <li class="burger__menu-item"><a href="#" class="burger__menu-link">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="burger__menu-btns">
+        <button type="button" aria-label="submit" class="burger__menu-btn"><a href="#" class="burger__menu-btn_link">подать пьесу
+          <img src="./images/arrow-right.svg" class="burger__btns_arrow-right" alt="кнопка">
+        </a></button>
+        <button type="button" aria-label="donate" class="burger__menu-btn"><a href="#" class="burger__menu-btn_link">поддержать
+          <img src="./images/arrow-right.svg" class="burger__btns_arrow-right" alt="кнопка">
+        </a></button>
+      </div>
+      <ul class="burger__social-list">
+        <li class="burger__social-item"><a href="#" class="burger__social-link">ytube
+          <img src="./images/arrow-right.svg" class="burger__btns_arrow-right" alt="кнопка">
+        </a></li>
+        <li class="burger__social-item burger__social-item_half"><a href="#" class="burger__social-link">fb
+          <img src="./images/arrow-right.svg" class="burger__btns_arrow-right" alt="кнопка">
+        </a></li>
+        <li class="burger__social-item burger__social-item_half"><a href="#" class="burger__social-link">inst
+          <img src="./images/arrow-right.svg" class="burger__btns_arrow-right" alt="кнопка">
+        </a></li>
+        <li class="burger__social-item burger__social-item_half"><a href="#" class="burger__social-link">vk
+          <img src="./images/arrow-right.svg" class="burger__btns_arrow-right" alt="кнопка">
+        </a></li>
+        <li class="burger__social-item burger__social-item_half"><a href="#" class="burger__social-link">tlgtm
+          <img src="./images/arrow-right.svg" class="burger__btns_arrow-right" alt="кнопка">
+        </a></li>
+      </ul>
+      <div class="burger__copyrights">
+        <div class="burger__copyrights-block">
+          <p class="copyrights__paragraph">&copy; Любимовка, 2022</p>
+          <p class="copyrights__paragraph">Политика конфиденциальности</p>
+        </div>
+        <div class="burger__copyrights-block">
+          <p class="copyrights__paragraph copyrights__paragraph_logo">
+            <img src="./images/logo/footer-shishki-logo.png" alt="Логотип коллектива Шишки"
+                 class="copyrights__shishki-logo" />
+            <span class="copyrights__shishki-text">дизайн сайта —<br /><a href="#footer"
+                                                                          class="copyrights__link">shishki.collective</a></span>
+          </p>
+          <p class="copyrights__paragraph">
+            вёрстка и разработака —<br /><a href="#footer" class="copyrights__link">студенты Яндекс.Практикума</a>
+          </p>
+        </div>
+      </div>
+    </div>
+<!--    end of burger section-->
+  </section>
 </header>
+
 <main>
   <section class="hero">
     <div class="hero__link-wrap"><a href="#" class="hero__back-btn">ПРОЕКТЫ</a></div>
@@ -174,5 +244,7 @@
     </div>
   </div>
 </footer>
+
+<script src="./pages/index.js" defer></script>
 </body>
 </html>

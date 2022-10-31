@@ -1,0 +1,9 @@
+.burger__menu-item {
+  list-style: none;
+  padding-bottom: 12px;
+  transition: .4s linear;
+}
+
+  .burger__menu-item:hover {
+    opacity: .7;
+  }

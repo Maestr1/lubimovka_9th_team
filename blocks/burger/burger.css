@@ -1,0 +1,14 @@
+.burger {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .burger {
+    display: flex;
+    flex: 1;
+    font-family: "FormularLight", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+  }
+}

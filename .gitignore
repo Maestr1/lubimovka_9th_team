@@ -3,6 +3,10 @@ node_modules
 dist
 .vscode
 
+# figma template
+figma_template
+todo
+
 # dependencies
 /node_modules
 /.pnp

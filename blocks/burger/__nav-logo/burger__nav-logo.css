@@ -1,0 +1,22 @@
+.burger__nav-logo {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .burger__nav-logo {
+    display: block;
+    width: 65px;
+    height: 52px;
+    padding-top: 15px;
+    padding-left: 5%;
+    position: relative;
+  }
+}
+
+@media (max-width: 728px) {
+  .burger__nav-logo {
+    padding-left: 14%;
+    width: 11%;
+    padding-top: 40px;
+  }
+}

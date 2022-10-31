@@ -1,0 +1,22 @@
+/*burger close "X"*/
+@media (max-width: 1100px) {
+  .burger_close .burger__line {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 1100px) {
+  .burger_close .burger__line::before {
+    top: 0;
+    left: 0;
+    transform: rotate(45deg);
+  }
+}
+
+@media (max-width: 1100px) {
+  .burger_close .burger__line::after {
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg);
+  }
+}

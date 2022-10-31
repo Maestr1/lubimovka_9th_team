@@ -1,0 +1,11 @@
+.burger__social-item_half {
+  width: 50%;
+  position: relative;
+  bottom: -1px;
+  margin-bottom: 1px;
+}
+
+.burger__social-item_half:nth-child(even) {
+  position: relative;
+  left: -1px;
+}

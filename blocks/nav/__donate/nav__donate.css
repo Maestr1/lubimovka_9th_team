@@ -1,34 +1,11 @@
 .nav__donate {
   display: flex;
-  justify-content: center;
   align-items: center;
+  /*justify-content: space-evenly;*/
+  flex-grow: 0.05;
   margin: 0;
   padding-top: 3px;
-  padding-right: 20px;
   position: relative;
-}
-
-.nav__donate::before {
-  content: "";
-  position: absolute;
-  left: -40px;
-  width: 50px;
-  bottom: 50%;
-  transform: rotate(90deg);
-  border-top: 1px solid #242424;
-}
-
-@media (max-width: 1140px) {
-  .nav__donate::before {
-    left: -35px;
-    width: 50px;
-  }
-}
-
-@media (max-width: 990px) {
-  .nav__donate::before {
-    left: -35px;
-  }
 }
 
 @media (max-width: 920px) {

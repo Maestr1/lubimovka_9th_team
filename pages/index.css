@@ -22,6 +22,7 @@
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__main/nav__main.css);
 @import url(../blocks/nav/__social/nav__social.css);
+@import url(../blocks/nav/__social-link/nav__social-link.css);
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__item-social/nav__item-social.css);
@@ -31,6 +32,31 @@
 @import url(../blocks/nav/__donate-plus/nav__donate-plus.css);
 @import url(../blocks/nav/__donate-link/nav__donate-link.css);
 @import url(../blocks/nav/__tooltip/nav__tooltip.css);
+@import url(../blocks/separator/separator.css);
+/*burger*/
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/_close/burger_close.css);
+@import url(../blocks/burger/__btn/burger__btn.css);
+@import url(../blocks/burger/__btn-content/burger__btn-content.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/__nav/burger__nav.css);
+@import url(../blocks/burger/__nav/_opened/burger__nav_opened.css);
+@import url(../blocks/burger/__nav-logo/burger__nav-logo.css);
+@import url(../blocks/burger/__menu/burger__menu.css);
+@import url(../blocks/burger/__menu-list/burger__menu-list.css);
+@import url(../blocks/burger/__menu-item/burger__menu-item.css);
+@import url(../blocks/burger/__menu-link/burger__menu-link.css);
+@import url(../blocks/burger/__menu-link/_active/burger__menu-link_active.css);
+@import url(../blocks/burger/__menu-btns/burger__menu-btns.css);
+@import url(../blocks/burger/__menu-btn/burger__menu-btn.css);
+@import url(../blocks/burger/__menu-btn/_link/burger__menu-btn_link.css);
+@import url(../blocks/burger/__social-list/burger__social-list.css);
+@import url(../blocks/burger/__social-item/burger__social-item.css);
+@import url(../blocks/burger/__social-item/_half/burger__social-item_half.css);
+@import url(../blocks/burger/__social-link/burger__social-link.css);
+@import url(../blocks/burger/__btns/_arrow-right/burger__btns_arrow-right.css);
+@import url(../blocks/burger/__copyrights/burger__copyrights.css);
+@import url(../blocks/burger/__copyrights-block/burger__copyrights-block.css);
 
 /* ---------------Hero-------------- */
 @import url(../blocks/hero/hero.css);

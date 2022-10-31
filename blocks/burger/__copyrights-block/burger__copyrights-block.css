@@ -1,0 +1,27 @@
+.burger__copyrights-block {
+  display: flex;
+  column-gap: 32px;
+}
+
+.burger__copyrights-blockk:last-of-type {
+  margin-right: calc(7.48%);
+}
+
+@media (max-width: 1100px) {
+  .burger__copyrights-block {
+    column-gap: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+  .burger__copyrights-block:last-of-type {
+    margin-right: calc(2.5%);
+  }
+}
+
+@media (max-width: 728px) {
+  .burger__copyrights-block {
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0;
+  }
+}
