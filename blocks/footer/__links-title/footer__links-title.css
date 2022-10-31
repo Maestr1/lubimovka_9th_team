@@ -1,6 +1,5 @@
 .footer__links-title {
+  margin: 0;
   font-size: inherit;
-  margin-block-start: 0;
-  margin-block-end: 0;
   font-weight: normal;
 }
