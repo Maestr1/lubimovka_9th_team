@@ -1,0 +1,11 @@
+.burger__social-item {
+  list-style: none;
+  outline: 1px solid #242424;
+  width: 100%;
+  box-sizing: border-box;
+  transition: .4s linear;
+}
+
+.burger__social-item:hover {
+  opacity: .7;
+}

@@ -1,0 +1,25 @@
+@media (max-width: 1100px) {
+  .burger__menu-btn {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border: 1px solid #242424;
+    border-right: 0;
+    color: #242424;
+    background-color: #ECEBE8;
+    margin-bottom: -1px;
+    transition: .4s linear;
+  }
+}
+
+.burger__menu-btn:hover {
+  opacity: .7;
+}
+
+@media (max-width: 728px) {
+  .burger__menu-btn {
+    position: relative;
+    bottom: -1px;
+  }
+}

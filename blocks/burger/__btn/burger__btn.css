@@ -1,0 +1,28 @@
+.burger__btn:hover .burger__line{
+  filter: brightness(70%);
+}
+
+@media (max-width: 1100px) {
+  .burger__btn {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 62px;
+    height: 62px;
+    z-index: 3;
+  }
+}
+
+@media (max-width: 728px) {
+  .burger__btn {
+    top: 70%;
+    right: 2px;
+  }
+}
+
+.burger__btn:hover {
+  cursor: pointer;
+}

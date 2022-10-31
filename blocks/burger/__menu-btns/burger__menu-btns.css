@@ -1,0 +1,28 @@
+.burger__menu-btns {
+  display: none;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 300;
+  color: inherit;
+}
+
+@media (max-width: 1100px) {
+  .burger__menu-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 10%;
+    margin-top: 50px;
+    position: relative;
+  }
+}
+
+@media (max-width: 728px) {
+  .burger__menu-btns {
+    line-height: 45px;
+    padding-left: 14%;
+  }
+}
