@@ -1,0 +1,20 @@
+.footer__partners-logotypes {
+  display: flex;
+  flex-basis: 435px;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .footer__partners-logotypes {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer__partners-logotypes {
+    display: grid;
+    grid-auto-rows: 118px;
+    grid-template-columns: repeat(auto-fit, 182px);
+    align-items: center;
+  }
+}
