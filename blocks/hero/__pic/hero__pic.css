@@ -1,6 +1,16 @@
 .hero__pic {
-  width: 100%;
+  width: 50%;
   aspect-ratio: 1.618;
   background-image: url(../../../images/header-pic.png);
   background-size: cover;
+}
+
+@media (max-width: 728px) {
+  .hero__pic {
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    aspect-ratio: inherit;
+
+  }
 }

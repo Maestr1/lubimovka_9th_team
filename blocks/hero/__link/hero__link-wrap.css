@@ -3,3 +3,9 @@
   padding-top: 32px;
   height: 32px;
 }
+
+@media (max-width: 728px) {
+  .hero__link-wrap {
+    display: none;
+  }
+}
